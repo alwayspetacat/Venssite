@@ -1,0 +1,258 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+ body{
+  background-color: #ffffe8;
+  min-height: 100vh;
+  overflow-x: hidden;
+  overflow-y: auto;
+ }
+
+
+
+ header{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  padding: 30px 100px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  z-index: 100;
+ }
+
+ .logo{
+  size: 2em;
+  color: #ffff;
+  border-radius: 20px;
+  pointer-events: none;
+  margin-right: 360px;
+ }
+
+ .navigation a{
+  text-decoration: none;
+  color: #359381;
+  padding: 6px 15px;
+  border-radius: 20px;
+  margin: 0 10px;
+  font-weight: 600;
+ }
+ .navigation a:hover,
+ .navigation a.active{
+  background: #359381;
+  color: #fff;
+  transition: 0.5s;
+ }
+ #mpoxbutton{
+  text-decoration: none;
+  color: #f0e1e1;
+  font-size: 20;
+  padding: 6px 15px;
+  border-radius: 20px;
+  margin-bottom: 80px;
+  margin-right: 1190px;
+  font-weight: 600;
+  position: absolute;
+  background: #ea030b;
+  text-shadow: 4px 4px 6px #0000005d;
+   }
+   #mpoxbutton:hover{
+    color: #f9f9f9;
+    background: #cc6565;
+    transition: 0.5s;
+     }
+
+
+ .mpox{
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+ }
+
+ #text{
+  position: absolute;
+  margin-bottom: 270px;
+  margin-right: 1065px;
+  line-height: 70px;
+  font-size: 4em;
+  color: #fff;
+  text-shadow: 4px 4px 6px #000000;
+  outline: 4px 4px 6px rgba(0, 0, 0, .2);;
+ }
+ .mpox img{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  pointer-events: none;
+ }
+
+ .sec{
+  position: relative;
+  top: 78px;
+  background-image: linear-gradient(#063702,#084e02);
+  padding: 40px;
+ }
+
+ *{
+  margin: 0 ;
+  padding: 0;
+  font-family: 'Poppins', sans-serif; 
+  box-sizing: border-box;
+}
+body{
+  color: #fff;
+}
+.wrapper{
+  padding: 10px 10%;
+}
+#card-area{
+  padding: 50px 0;
+}
+.box-area{
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  grid-gap: 40px;
+  margin-top: 50px;
+}
+
+.box {
+border-radius: 10px;
+position: relative;
+overflow: hidden;
+box-shadow: 5px 5px 15px rgba(0,0,0,0.9);
+}
+.box img{
+  width: 100%;
+  border-radius: 10px;
+  display: block;
+  transition: transform 0.5s;
+}
+.overlay {
+width: 100%;
+height: 0;
+background: linear-gradient(transparent,#1c1c1c 58%);
+border-radius: 10px;
+position: absolute;
+left: 0;
+bottom: 0;
+overflow: hidden;
+display: flex;
+align-items: center;
+justify-content: center;
+flex-direction: column;
+padding: 0 40px;
+text-align: center;
+font-size: 14px;
+transition: height 0.5s;
+}
+.overlay h3 {
+font-weight: 500;
+margin-bottom: 5px;
+margin-top: 80%;
+font-family: 'Bebas Neue', sans-serif;
+font-size: 30px;
+letter-spacing: 2px;
+}
+.overlay p{
+  text-align: justify;
+  text-justify:newspaper;
+  font-size: 12px ;
+}
+.overlay a {
+margin-top: 10px;
+color: #262626;
+text-decoration: none;
+font-size: 14px;
+background: #fff;
+border-radius: 50px;
+text-align: center;
+padding: 5px 15px;
+}
+.box:hover img{
+  transform: scale(1.1);
+}
+.box:hover .overlay{
+  height: 100%;
+}
+
+#object22 {
+  margin-top: -300px;
+  width: 1500px;
+  margin-left: 100px;
+}
+
+#object23{
+  margin-top: -400PX;
+  width: 1400px;
+  margin-right: 100px;
+  z-index: 1;
+}
+
+.third{
+  position: relative;
+  background-image: linear-gradient(#074c01, #063702);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+   }
+   .third img{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    pointer-events: none;
+   }
+   .information{
+    margin-top: 500px;
+    margin-right: 300px;
+    font-family: "Montserrat", sans-serif;
+    font-size: medium;
+    color: #ffffff;
+    text-shadow: 4px 4px 6px #000000;
+    outline: 4px 4px 6px rgba(0, 0, 0, .2); 
+   }
+
+   #logo1{
+    width: 150px;
+    align-items: center;
+   }
+   #vens{
+    margin-top: -85px;
+    align-items: center;
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: bold;
+    text-shadow: 4px 4px 6px #000000;
+    outline: 4px 4px 6px rgba(0, 0, 0, .2); 
+    font-family: "be", sans-serif;
+    font-size: 90px;
+   }
+   .footer {
+    margin-top: -20px;
+    position: relative;
+    left: 0;
+    bottom: 0;
+    height: 300px;
+    width: 100%;
+    color: white;
+    text-align: center;
+   }
+   .fourth{
+    position: relative;
+    background-image:linear-gradient( #063702,#7b7a2c);
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 350px;
+     }
+
